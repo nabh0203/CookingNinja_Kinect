@@ -1,0 +1,20 @@
+2023-10-18
+Rendering UV GBuffer for Middle 2_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\sally\AppData\Local\Temp\frender" "uvpos_Middle 2_LM0.lz4" 2 0 0 0
+Running ftraceRTX addmul "C:\Users\sally\AppData\Local\Temp\frender" "Middle 2_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\sally\AppData\Local\Temp\frender" "Middle 2_LM0_diffuse" 4 16 0 "gi_Middle 2_LM00.bin" "Middle 2_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\sally\AppData\Local\Temp\frender" "Middle 2_LM0_diffuse" 4 16 0 "gi_Middle 2_LM01.bin" "Middle 2_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\sally\AppData\Local\Temp\frender" "Middle 2_LM0_diffuse" 4 16 0 "gi_Middle 2_LM02.bin" "Middle 2_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\sally\AppData\Local\Temp\frender" "Middle 2_LM0_diffuse" 4 16 0 "gi_Middle 2_LM03.bin" "Middle 2_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\sally\AppData\Local\Temp\frender" "Middle 2_LM0_final" 20 16 0 "gi_Middle 2_LM04.bin" "Middle 2_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\sally\AppData\Local\Temp\frender" "Middle 2_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running denoiserOIDN c "C:\Users\sally\AppData\Local\Temp\frender/Middle 2_LM0_final_HDR.lz4" "C:\Users\sally\AppData\Local\Temp\frender/Middle 2_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\sally\AppData\Local\Temp\frender" "0" "Middle 2_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\sally\AppData\Local\Temp\frender/Middle 2_LM0_final_HDR.lz4" "C:/UnityFiles/KYProgramming/Projects/FruitNinja/Assets/BakeryLightmaps/Middle 2_LM0_final.hdr" 1024
