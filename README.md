@@ -1,5 +1,8 @@
 CookingNinja_Kinect
 =============
+![image 114](https://github.com/user-attachments/assets/8179eab8-e9f9-4a89-9b79-4f1c71ebef7d)
+
+
 **사용 기술**
 
 - Unity
